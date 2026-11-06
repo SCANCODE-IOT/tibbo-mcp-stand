@@ -4,7 +4,7 @@
 # Скиллы (для проверки плат и кода) ожидаются в /opt/tibbo-ai-skills.
 set -e
 DEST=/opt/tibbo-stand
-python3 -c 'import sys; assert sys.version_info >= (3, 8), sys.version' || { echo "Нужен Python 3.8+"; exit 1; }
+python3 -c 'import sys; assert sys.version_info >= (3, 9), sys.version' || { echo "Нужен Python 3.9+"; exit 1; }
 mkdir -p "$DEST"
 cp -r tibbo_mcp tools deploy config.example.json config.cloud.example.json config.hub.example.json README.md README.ru.md "$DEST"/
 if [ ! -f "$DEST/config.json" ]; then

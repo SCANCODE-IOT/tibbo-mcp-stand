@@ -71,7 +71,7 @@ e-stop and read-only mode.
 | `lint_tibbo_code` | catches invented API names in Tibbo BASIC / C | tibbo-ai-skills |
 | `fleet_status` / `fleet_call` | other boards in the fleet (hub mode) | - |
 
-Pure Python 3.8+ standard library. Nothing to `pip install` on the board.
+Pure Python 3.9+ standard library. Nothing to `pip install` on the board.
 
 ## Quick start: simulator, 2 minutes, no hardware
 

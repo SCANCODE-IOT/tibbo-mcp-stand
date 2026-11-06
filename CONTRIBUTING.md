@@ -5,7 +5,7 @@ board is the next frontier. Any help counts, even a single `--probe` output from
 
 1. **Start with an issue.** Hardware reports, bugs, ideas and "I want to do X" all start there, so nobody
    does the same work twice.
-2. **Keep the board dependency-free.** The server runs on the Python standard library (3.8+). If a feature
+2. **Keep the board dependency-free.** The server runs on the Python standard library (3.9+). If a feature
    truly needs a package, make it optional and fall back gracefully.
 3. **Safety first.** Anything that switches a load goes through `Stand.switch_relay`: timers, rate limits,
    e-stop, read-only. Do not bypass it, including in rules or fleet code.
@@ -20,7 +20,7 @@ board is the next frontier. Any help counts, even a single `--probe` output from
 
 1. **Начните с issue.** Отчёты с железа, ошибки, идеи и «хочу сделать вот это» - всё туда, чтобы никто не
    делал одну работу дважды.
-2. **На плате - без зависимостей.** Сервер работает на стандартной библиотеке Python 3.8+. Если функции
+2. **На плате - без зависимостей.** Сервер работает на стандартной библиотеке Python 3.9+. Если функции
    правда нужен пакет, сделайте его необязательным и с понятной заменой.
 3. **Безопасность - первой.** Всё, что включает нагрузку, идёт через `Stand.switch_relay`: таймеры, лимиты,
    аварийная кнопка, «только чтение». Не обходите их, в том числе в правилах и во флоте.
