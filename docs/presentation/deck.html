@@ -180,7 +180,7 @@ slide(`<div class="eyebrow">04 · ${t('флот','fleet')}</div>
 <svg width="780" height="520" style="position:absolute;inset:0"><g stroke="#EC6C2E" stroke-width="3" stroke-dasharray="10 8" opacity=".75">
 <line x1="125" y1="55" x2="390" y2="260"/><line x1="655" y1="55" x2="390" y2="260"/><line x1="125" y1="465" x2="390" y2="260"/><line x1="655" y1="465" x2="390" y2="260"/></g></svg>
 <div class="node or" style="position:absolute;left:225px;top:185px;width:330px;min-width:0;text-align:center"><div class="k">${t('Диспетчер','Hub')}</div><b>fleet_status</b><span>fleet_call(board, tool)</span></div>
-${[[0,0,t('Шоурум, Москва','Showroom')],[530,0,t('Котельная','Boiler room')],[0,410,t('Склад','Warehouse')],[530,410,t('Цех №2','Workshop 2')]].map(([x,y,s])=>`<div class="node" style="position:absolute;left:${x}px;top:${y}px;width:250px;min-width:0;padding:20px 24px"><div class="k">LTPP3(G2)</div><b style="font-size:26px">${s}</b></div>`).join('')}
+${[[0,0,t('Шоурум','Showroom')],[530,0,t('Котельная','Boiler room')],[0,410,t('Склад','Warehouse')],[530,410,t('Цех №2','Workshop 2')]].map(([x,y,s])=>`<div class="node" style="position:absolute;left:${x}px;top:${y}px;width:250px;min-width:0;padding:20px 24px"><div class="k">LTPP3(G2)</div><b style="font-size:26px">${s}</b></div>`).join('')}
 </div>
 <ul class="list">
 <li><b>${t('«На какой площадке перегрев?»','"Which site is overheating?"')}</b> ${t('- ИИ опрашивает все платы параллельно.','- the AI polls every board in parallel.')}</li>
@@ -240,7 +240,7 @@ slide(`<div style="display:grid;grid-template-columns:1.35fr 1fr;gap:90px;align-
 <li><b>${t('Есть идея?','Got an idea?')}</b> ${t('«А было бы круто, если…» - отличный заголовок issue.','"Wouldn\'t it be cool if…" is a great issue title.')}</li></ul></div>
 <div style="text-align:center"><div class="qr" style="margin:0 auto"><img src="qr.svg"></div>
 <p class="mono" style="font-size:26px;color:var(--or2);margin-top:30px">${REPO}</p>
-<p style="font-size:24px;color:var(--mu)">MIT · ${t('Сканкод - официальный дистрибьютор Tibbo в России и СНГ','Scancode - official Tibbo distributor in Russia and the CIS')}</p></div></div>`);
+<p style="font-size:24px;color:var(--mu)">MIT · ${t('Сканкод - официальный дистрибьютор Tibbo','Scancode - official Tibbo distributor')}</p></div></div>`);
 
 document.getElementById('deck').innerHTML=S.join('');
 </script>
