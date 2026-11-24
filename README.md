@@ -5,7 +5,7 @@
 > It has **not yet run on a real Tibbo LTPP3(G2)**. That last step needs someone with the board on the desk,
 > and that person may be **you**.
 >
-> [Русская версия](README.ru.md) · 📊 Presentation: [EN](docs/presentation-en.pdf) · [RU](docs/presentation-ru.pdf)
+> [Русская версия](README.ru.md) · 📊 Presentation: [EN](docs/presentation-en.pdf) · [RU](docs/presentation-ru.pdf) · 📣 [Telegram](https://t.me/tibbotechnologyru) (RU)
 
 ![Stand panel](docs/panel.png)
 
@@ -181,6 +181,8 @@ cycle then brings the stand back to a clean state.
 - [ ] TiOS boards (TPP2/TPP3, DS, EM) as fleet members via a small HTTP bridge in Tibbo BASIC
 - [ ] Home Assistant / Node-RED integration
 - [ ] Rules: time-of-day conditions, AND/OR, notifications to Telegram
+
+Progress of the stand and other Tibbo news: [Telegram channel](https://t.me/tibbotechnologyru) (in Russian).
 
 ## How it is built
 
