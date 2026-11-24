@@ -5,7 +5,7 @@
 > панель на компьютере и телефоне. **На настоящей Tibbo LTPP3(G2) он ещё не запускался.** Для последнего шага
 > нужен человек с платой на столе, и, возможно, это **вы**.
 >
-> 🇬🇧 [English version](README.md) · 📊 Презентация: [RU](docs/presentation-ru.pdf) · [EN](docs/presentation-en.pdf)
+> 🇬🇧 [English version](README.md) · 📊 Презентация: [RU](docs/presentation-ru.pdf) · [EN](docs/presentation-en.pdf) · 📣 [Telegram-канал](https://t.me/tibbotechnologyru)
 
 ![Панель стенда](docs/panel.png)
 
@@ -194,6 +194,8 @@ sh deploy/install.sh             # ставит в /opt/tibbo-stand и запу�
 - [ ] Платы на TiOS (TPP2/TPP3, DS, EM) во флоте - через маленький HTTP-мост на Tibbo BASIC
 - [ ] Интеграция с Home Assistant и Node-RED
 - [ ] Правила: время суток, И/ИЛИ, уведомления в Telegram
+
+Как продвигается стенд и другие новости Tibbo - в нашем [Telegram-канале](https://t.me/tibbotechnologyru): подпишитесь, чтобы не пропустить первый запуск на настоящей плате.
 
 ## Как устроено
 
